@@ -1,11 +1,10 @@
-
 import React from 'react';
 
 export const Logo: React.FC<{ className?: string }> = ({ className = "h-10" }) => {
   return (
-    <div className={`flex items-center gap-3 ${className}`}>
+    <div className={`flex items-center gap-3 ${className}`} style={{ height: '40px' }}>
       {/* Icon Shield */}
-      <svg viewBox="0 0 100 100" className="h-full w-auto">
+      <svg viewBox="0 0 100 100" className="h-full w-auto" style={{ height: '100%' }}>
         {/* Shield Shape */}
         <path 
           d="M50 95 C20 85 10 70 10 30 L50 10 L90 30 C90 70 80 85 50 95 Z" 
